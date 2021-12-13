@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-signup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miny4971/nodejs-signup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miny4971/nodejs-signup/issues"
+  },
+  "homepage": "https://github.com/miny4971/nodejs-signup#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "mongoose": "^6.1.1",
+    "nodemon": "^2.0.15"
+  }
+}
